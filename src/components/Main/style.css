@@ -1,5 +1,5 @@
-*{
-    background-color: #fffaf1;
+body{
+    background-color: #ececec;;
 }
 
 
@@ -18,14 +18,17 @@
     font-family: 'Cormorant Garamond', serif;
     display:flex;
     justify-content: center;
+    background-color: white;
 }
 .nameOne h3{
 font-size: 30px;
 margin-top: -1px;
 word-spacing: 10px;
+background-color: white;
 }
 .nameOne h6{
 margin-top: -25px;
 font-size: 13px;
 word-spacing: 5px;
+background-color: white;
 }
