@@ -7,11 +7,11 @@ function Header() {
       
     <div className='topSection'>
         <div className='sectionOne'>
-<h5>Welcome, we hope to see you soon!</h5>
+<h5>WELCOME! WE HOPE TO SEE YOU SOON</h5>
         </div>
 
         <div className='sectionOne'>
-<h5>Contact Us</h5>         
+<h5>CONTACT US.</h5>         
         </div>
 
     </div>
