@@ -9,3 +9,23 @@
     filter: grayscale(90%);
     margin-top: -20px;
 }
+.wedNames{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.nameOne{
+    font-family: 'Cormorant Garamond', serif;
+    display:flex;
+    justify-content: center;
+}
+.nameOne h3{
+font-size: 30px;
+margin-top: -1px;
+word-spacing: 10px;
+}
+.nameOne h6{
+margin-top: -25px;
+font-size: 13px;
+word-spacing: 5px;
+}

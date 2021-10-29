@@ -10,6 +10,18 @@ function Main() {
 <img src={pracFoto}/>
 </div>
 
+<div className='wedNames'>
+        <div className='nameOne'>
+<h3>Soley & Bryan</h3>
+        </div>
+
+        <div className='nameOne'>
+<h6>WE'RE GETTING MARRIED - 3.10.2022</h6>         
+        </div>
+
+    </div>
+
+
         </div>
       </>
     );
