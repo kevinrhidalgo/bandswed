@@ -1,0 +1,10 @@
+*{
+    background-color: #fffaf1;
+}
+
+
+.coupleFoto img{
+    width: 100%;
+    height: 530px;
+    filter: grayscale(90%);
+}
