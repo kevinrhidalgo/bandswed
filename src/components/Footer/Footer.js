@@ -17,7 +17,8 @@ const footerImg ={
 function Footer() {
     return (
       <>
-        
+<div className="bottomPage">  
+
 <div className="footer">
   <h1>You can find us at</h1>
   <div className="theContacts">
@@ -29,6 +30,12 @@ function Footer() {
 
 <h5> Copyright © 2021. Kevin Hidalgo </h5>
 </div>
+
+<div className="footerTwo">
+<h1>Footer 2nd Half</h1>
+</div>
+
+</div>  
       </>
     );
   }
