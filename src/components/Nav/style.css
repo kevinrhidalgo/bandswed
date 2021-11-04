@@ -1,0 +1,17 @@
+.navSection{
+    background-color: white;
+    margin-bottom: 100px;
+    margin-top: 2px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.navLink{
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+   
+    
+}
