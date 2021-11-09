@@ -31,10 +31,11 @@ function Footer() {
 <h5> Copyright © 2021. Kevin Hidalgo </h5>
 </div>
 
+{/*
 <div className="footerTwo">
 <h1>Footer 2nd Half</h1>
 </div>
-
+*/}
 </div>  
       </>
     );
