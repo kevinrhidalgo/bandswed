@@ -1,8 +1,8 @@
 body{
-    background-image: url("https://images.unsplash.com/photo-1542372712-fc07597133cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    background-image: url("https://images.pexels.com/photos/8917087/pexels-photo-8917087.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
     background-repeat: no-repeat;
-background-size:100%;
-    border: solid 1px brown;
+background-size:100% 100%; 
+
 }
 .coupleFoto{
     display: flex;
@@ -21,20 +21,23 @@ background-size:100%;
     justify-content: space-around;
 }
 .nameOne{
-    font-family: 'Cormorant Garamond', serif;
     display:flex;
     justify-content: center;
+    
 }
 .nameOne h3{
-font-size: 30px;
-margin-top: -1px;
-word-spacing: 10px;
+font-size: 37px;
+margin-top: 70px;
+word-spacing: -1px;
+font-family: 'Mulish', sans-serif;
+color:white;
 }
 .nameOne h6{
-margin-top: -25px;
-font-size: 13px;
-word-spacing: 5px;
-
+margin-top: -35px;
+font-size: 17px;
+word-spacing: 1px;
+font-family: 'Open Sans Condensed', sans-serif;
+color:yellow;
 }
 
 body.active-modal {

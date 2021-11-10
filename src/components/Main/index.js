@@ -16,7 +16,7 @@ function Main() {
         </div>
 
         <div className='nameOne'>
-<h6>WE'RE GETTING MARRIED - 3.10.2022 - Orlando, FL</h6>     
+<h6>WE'RE GETTING MARRIED - 3.10.2022 - MONTVERDE, FL</h6>     
         </div>
    
      
