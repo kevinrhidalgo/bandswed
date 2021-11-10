@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import "./style.css"
 
+const linkStyler={
+  textDecoration:'none',
+  color:'black'
+}
+
 function Nav() {
 
 
@@ -19,15 +24,15 @@ function Nav() {
     return (
       <>
       <div className="navSection">
-      <div className="navLink">OUR STORY.</div>
-      <div className="navLink">
-      <a href="https://forms.gle/TaWYJFT1Y6AvQNKx8">  RSVP.</a>
+      <div style={linkStyler} className="navLink">Our Story.</div>
+      <div  className="navLink">
+      <a style={linkStyler} href="https://forms.gle/TaWYJFT1Y6AvQNKx8">  RSVP.</a>
         </div>
 
 
         <div className='navLink'>    
         <a onClick={toggleModalThree} className="btn-modal">
-  <div className="address">Address</div>
+  <div style={linkStyler} className="address">Address</div>
 </a>
 </div>
         {modalThree && (
@@ -47,9 +52,9 @@ function Nav() {
       )}
      
 
-      <div className="navLink">REGISTRY</div>
-      <div className="navLink">CONTACTS</div>
-      <div className="navLink">DONATIONS</div>
+      <div style={linkStyler} className="navLink">Registry</div>
+      <div style={linkStyler} className="navLink">Contacts</div>
+      <div style={linkStyler} className="navLink">Donations</div>
       </div>
 
      
