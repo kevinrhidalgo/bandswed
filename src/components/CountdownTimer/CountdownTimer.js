@@ -25,6 +25,8 @@ const CountdownTimer = ({countdownTimestampMs}) => {
 
     return(
         <>
+    <div className="secTimer">
+
         <div className="timerSec">
 
             <div className="countClock" >
@@ -44,9 +46,10 @@ const CountdownTimer = ({countdownTimestampMs}) => {
             <span className="typeLabel">Minutes</span>
             <span className="typeLabel">Seconds</span>
         </div>
-        
+
         </div>
 
+ </div>
 
         </div>
         </>

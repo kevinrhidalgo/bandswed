@@ -1,5 +1,5 @@
 .navSection{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 2px;
     height: 40px;
     display: flex;
@@ -9,8 +9,5 @@
 }
 
 .navLink{
-    font-family: 'Cormorant Garamond', serif;
-    display: flex;
-   
-    
+    font-family: serif;
 }
