@@ -1,5 +1,7 @@
 body{
-    background-color: #fffaf1;
+    background-image: url("https://images.unsplash.com/photo-1542372712-fc07597133cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+background-size:100%;
     border: solid 1px brown;
 }
 .coupleFoto{
@@ -22,19 +24,17 @@ body{
     font-family: 'Cormorant Garamond', serif;
     display:flex;
     justify-content: center;
-    background-color: white;
 }
 .nameOne h3{
 font-size: 30px;
 margin-top: -1px;
 word-spacing: 10px;
-background-color: white;
 }
 .nameOne h6{
 margin-top: -25px;
 font-size: 13px;
 word-spacing: 5px;
-background-color: white;
+
 }
 
 body.active-modal {
