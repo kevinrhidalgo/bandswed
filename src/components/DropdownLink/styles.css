@@ -1,0 +1,13 @@
+.headerSec{
+    display: flex;
+    flex-direction: row;
+}
+
+.headTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: olive;
+    transform: translate(100%, 40%);
+}

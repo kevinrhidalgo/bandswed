@@ -1,0 +1,15 @@
+.profile-link {
+    cursor: pointer;
+    font-size: 35px;
+    
+  }
+  .profile-menu {
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    
+  }
+
+  
+  

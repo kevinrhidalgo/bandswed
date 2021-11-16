@@ -1,39 +1,38 @@
 import React from "react";
-import "../Main/style.css"
-import brySol from "./brysol.jpg"
+import { Link } from "react-router-dom";
+import "./styles.css"
+import buildings from "./webber.jpeg"
 import CountdownTimer from "../CountdownTimer/CountdownTimer"
 import Nav from "../Nav/Nav"
+
+
 
 function Main() {
 
     return (
-      <>
-        <div className='bodyMain'>
+      <div className="mainSecone">
+      
+      <div className="mainSec">
+<img src={buildings}/>
 
-        <div className='wedNames'>
-        <div className='nameOne'>
-<h3>Soley McWilliam & Bryan Hidalgo</h3>
-        </div>
 
-        <div className='nameOne'>
-<h6>WE'RE GETTING MARRIED - 3.10.2022 - MONTVERDE, FL</h6>     
-        </div>
-   
      
-        <CountdownTimer
-     countdownTimestampMs={1646883662000}/> 
-      <Nav/>
+      {/*}  <CountdownTimer
+     countdownTimestampMs={1646883662000}/> */}
+      </div>
 
-<div className='coupleFoto'>
-<img src={brySol}/>
+      <div className="cdTimer">
+      <CountdownTimer
+     countdownTimestampMs={1646883662000}/>
+      </div>
+
+
+      <div className="enterBtn">
+<Link className="btn" to="/Aboutme"><h2> Enter </h2></Link>
+
 </div>
 
-
-
-
-        </div>
-        </div>
-      </>
+      </div>
     );
   }
   

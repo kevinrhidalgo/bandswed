@@ -1,44 +1,56 @@
 body{
-    background-image: url("https://images.pexels.com/photos/8917087/pexels-photo-8917087.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-    background-repeat: no-repeat;
-background-size:100% 100%; 
+    background-color: #fffaf1;
+}
+.mainSecone{
+  display: flex;
+  justify-content:center ;
+}
+.mainSec{
+  display: flex;
+  justify-content: center;
+}
+.mainSec img{
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 100%;
+  position: relative;
+  
+}
+.enterBtn{
+  position:absolute;
+transform: translate(0%,1200%);
+border:solid 1px white;
 
 }
-.coupleFoto{
-    display: flex;
-    justify-content: center;
+.enterBtn h2{
+  color:white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.coupleFoto img{
-    width: 75%;
-    height: 600px;
-    margin-top: -20px;
-    margin-bottom: 150px;
+.enterBtn:hover{
+background-color:orange;
 }
-.wedNames{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+
+.cdTimer{
+  position:absolute;
+  color:white;
+  transform: translate(0%,190%);
 }
-.nameOne{
-    display:flex;
-    justify-content: center;
-    
-}
-.nameOne h3{
-font-size: 37px;
-margin-top: 40px;
-word-spacing: -1px;
-font-family: 'Mulish', sans-serif;
-color:white;
-}
-.nameOne h6{
-margin-top: -35px;
-font-size: 17px;
-word-spacing: 1px;
-font-family: 'Open Sans Condensed', sans-serif;
-color:yellow;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 body.active-modal {
     overflow-y: hidden;

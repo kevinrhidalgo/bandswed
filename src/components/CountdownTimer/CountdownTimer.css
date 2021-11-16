@@ -4,10 +4,9 @@
     align-items:center;
     margin-top: -30px;
     padding-bottom: 20px;
-    box-shadow: 5px 5px 10px;
+    box-shadow: orange 3px 4px 6px;
     height: 100px;
     width: 400px;
-    border: solid 2px beige;
 }
 .secTimer{
     display: flex;

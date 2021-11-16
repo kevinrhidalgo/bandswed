@@ -4,19 +4,28 @@ import Main from "./components/Main"
 import Footer from "./components/Footer/Footer"
 import Nav from "./components/Nav/Nav"
 import Header from "./components/Header"
+import Navigation from "./components/Navigation/Navigation"
+import Aboutme from "./components/Aboutme/Aboutme"
+import "./App.css"
+
 
 
 
 function App() {
+
+
+  
   return (
     <div className="App">
-      <Header/>
-     
+    
+      
+     <Navigation/>
       <BrowserRouter>
         <Route path='/' exact={true} component={Main}/>   
+        <Route path="/Aboutme"  component={Aboutme} />
       </BrowserRouter>
     
-      <Footer/>
+    
     </div>
   );
 }

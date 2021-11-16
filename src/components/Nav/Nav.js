@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./style.css"
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import {images} from "../../Helpers/CarouselData"
 
 const linkStyler={
   textDecoration:'none',
@@ -9,18 +12,21 @@ const linkStyler={
 function Nav() {
 
 
-  const [modalThree, setModalThree] = useState(false);
+  const [modal, setModal] = useState(false);
 
-  const toggleModalThree = () => {
+  const toggleModal = () => {
 
-    setModalThree(!modalThree);
+    setModal(!modal);
   };
 
-  if(modalThree) {
+  if(modal) {
     document.body.classList.add('active-modal')
   } else {
     document.body.classList.remove('active-modal')
   }
+
+  const [currImg, setCurrImg] = useState(0);
+
     return (
       <>
       <div className="navSection">
@@ -30,26 +36,64 @@ function Nav() {
         </div>
 
 
-        <div className='navLink'>    
-        <a onClick={toggleModalThree} className="btn-modal">
+      
+
+<div className='navLink'>    
+        <a onClick={toggleModal} className="btn-modal">
   <div style={linkStyler} className="address">Address</div>
 </a>
 </div>
-        {modalThree && (
+{modal && (
         <div className="modal">
-          <div onClick={toggleModalThree} className="overlay"></div>
-          <div className="modal-content">
-            
-          <p>Hi this is ht modal for the address navSection</p>
+          <div onClick={toggleModal} className="overlay"></div>
+          <div className="modal-content2">
+
+<div className='aboutProject2'>
+       <div className="carousel">
+      
+      <div
+        className="carouselInner"
+        style={{ backgroundImage: `url(${images[currImg].img})` }}
+      >
+
+     <div
+          className="left"
+          onClick={() => {
+            currImg > 0 && setCurrImg(currImg - 1);
+          }}
+        >
+          <ArrowBackIosIcon style={{ fontSize: 45 }} />
+        </div>
+        <div
+          className="right"
+          onClick={() => {
+            currImg < images.length - 1 && setCurrImg(currImg + 1);
+          }}
+        >
+          <ArrowForwardIosIcon style={{ fontSize: 45 }} />
+        </div>
+      </div>
+    </div>
+
   
-            <div className='closeBtnThree'> 
-            <a className="close-modal" onClick={toggleModalThree}>
-              <span>X</span>
+    <div className='aboutLocation'> 
+
+    <h1>15920 County Rd 455, Montverde, FL 34756</h1>
+
+
+      </div>
+ 
+</div>
+<div className='closeBtn'>
+            <a className="close-modal" onClick={toggleModal}>
+            <span>X</span>
             </a>
             </div>
           </div>
         </div>
       )}
+
+
      
 
       <div style={linkStyler} className="navLink">Registry</div>
