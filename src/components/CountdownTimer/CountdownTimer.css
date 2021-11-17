@@ -4,7 +4,7 @@
     align-items:center;
     margin-top: -30px;
     padding-bottom: 20px;
-    box-shadow: orange 3px 4px 6px;
+    box-shadow: pink 5px 5px 6px;
     height: 100px;
     width: 400px;
 }
@@ -29,13 +29,13 @@
 .countClock{
     display: flex;
     flex-direction: column;
-    color:white;
+    color:tomato;
 }
 .countdownLabel{
     display: flex;
     justify-content: center;
-    font-family: 'Mulish', sans-serif;
-    color:white;
+    font-family: sans-serif;
+    color:tomato;
     margin-top: -30px;
 }
 .typeLabel{

@@ -6,6 +6,9 @@ function DropdownList() {
 
     
     <div class="dropdown-menu profile-menu">
+    <a class="dropdown-item" href="#">
+      Home
+      </a>
       <a class="dropdown-item" href="#">
         Our Story
       </a>

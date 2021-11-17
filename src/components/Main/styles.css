@@ -1,5 +1,6 @@
 body{
     background-color: #fffaf1;
+    
 }
 .mainSecone{
   display: flex;
@@ -8,19 +9,22 @@ body{
 .mainSec{
   display: flex;
   justify-content: center;
+  
 }
 .mainSec img{
   display: flex;
   justify-content: center;
   width: 95%;
-  height: 100%;
+  height: 90%;
   position: relative;
+  border: pink solid 1px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   
 }
 .enterBtn{
   position:absolute;
 transform: translate(0%,1200%);
-border:solid 1px white;
+border:solid 2px white;
 
 }
 .enterBtn h2{
@@ -32,13 +36,29 @@ border:solid 1px white;
 }
 
 .enterBtn:hover{
-background-color:orange;
+background-color:tomato;
 }
 
 .cdTimer{
   position:absolute;
   color:white;
   transform: translate(0%,190%);
+}
+.wedNames{
+  position: absolute;
+  color:tomato;  
+display: flex;
+flex-direction: column;
+transform: translate(-50%,50%);
+}
+.wedNames h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-spacing: -3px;
+  font-family: cursive;
+}
+.wedNames h6{
+  font-family: cursive;
+  font-style: italic;
 }
 
 

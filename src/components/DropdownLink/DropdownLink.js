@@ -18,7 +18,9 @@ function DropdownLink(props) {
       >
         ☰
       </div>
+    
       <div className="headTitle"> <p>WE'RE GETTING MARRIED - 3.10.2022 - MONTVERDE, FL</p></div>
+      
       {showDropdown ? <DropdownList /> : null}
       
     </div>
