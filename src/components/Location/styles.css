@@ -1,0 +1,21 @@
+.imageSec{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.imageSec1 img{   
+width: 330px;
+height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.imageSec2 img{
+    width: 450px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.imageSec3 img{
+    width: 330px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
