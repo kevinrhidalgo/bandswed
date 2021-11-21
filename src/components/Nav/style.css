@@ -1,18 +1,94 @@
+.secNavi{
+  display: flex;
+  justify-content: center;
+}
 .navSection{
     margin-bottom: 50px;
-    margin-top: 2px;
+    margin-top: -3px;
     height: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 15px;
     text-decoration: none;
+  width: 600px;
+  
 }
 
-.navLink{
-    font-family: serif;
+.navLink h1{
+  font-family: serif;
     text-decoration: none;
+    font-size: 11px;
+    transform: translate(0%,-30%);
+    color:#222222;
+    font-family: 'Cinzel', serif;
+    margin-right: -15px;
 }
+.navLink h1:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.navLink h2{
+  font-family: serif;
+    text-decoration: none;
+    font-size: 11px;
+    transform: translate(0%,30%);
+    color:#222222;
+    font-family: 'Cinzel', serif;
+    margin-right: -10px;
+    margin-left:-10px;
+    cursor:pointer;
+}
+.navLink h2:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.navLink P{
+  font-family: serif;
+    text-decoration: none; 
+    font-size: 11px;
+    color:#222222;
+    margin-right: 5px;
+    font-family: 'Cinzel', serif;
+    transform: translate(-3%,20%);
+    cursor:pointer;
+}
+.navLink p:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.navLinkr{
+  font-family: serif;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+width: 70px;
+height: 35px;
+background-color:#d9c4ec;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin-top: 8px;
+margin-left: 190px;
+border-radius: 9%;
+}
+.navLinkr:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+color: beige;
+}
+.navLinkr p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  margin-top: 9px;
+}
+
+
 body.active-modal {
     overflow-y: hidden;
   }
@@ -92,3 +168,41 @@ body.active-modal {
       display: flex;
       justify-content: center;
   }
+
+
+  .headTitle{
+    font-size: 11px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: tomato;
+    transform: translate(130%,30%);
+    display: flex;
+    justify-content: center;
+}
+
+.vl1{
+  display:flex;
+  justify-content: center;
+} 
+.vl {
+  border-top: 2px solid tomato;
+  width: 610px;
+  font-weight: 1400px;
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+}
+
+
+.vl2{
+  display:flex;
+  justify-content: center;
+} 
+.vl3 {
+  border-top: 2px solid tomato;
+  width: 610px;
+  font-weight: 1400px;
+  display: flex;
+  justify-content: center;
+  margin-bottom:20px;
+  margin-top: -40px;
+}

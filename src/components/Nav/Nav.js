@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./style.css"
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
@@ -29,18 +30,28 @@ function Nav() {
 
     return (
       <>
+
+{/*}
+      <div className="vl1">
+      <div class="vl"></div>
+      </div>
+    */}
+
+<div className="secNavi">
+
       <div className="navSection">
-      <div style={linkStyler} className="navLink">Our Story.</div>
-      <div  className="navLink">
-      <a style={linkStyler} href="https://forms.gle/TaWYJFT1Y6AvQNKx8">  RSVP.</a>
-        </div>
 
+      <div style={linkStyler} className="navLink">
+<Link className="btn" to="/"><h1>Home</h1></Link>
+</div>
 
-      
+      <div style={linkStyler} className="navLink">
+      <Link className="btn" to="/Aboutme"><h1>Our Story</h1></Link>
+      </div>  
 
 <div className='navLink'>    
         <a onClick={toggleModal} className="btn-modal">
-  <div style={linkStyler} className="address">Address</div>
+  <div style={linkStyler} className="address"><h2>Wedding Day Info</h2></div>
 </a>
 </div>
 {modal && (
@@ -96,14 +107,23 @@ function Nav() {
 
      
 
-      <div style={linkStyler} className="navLink">Registry</div>
-      <div style={linkStyler} className="navLink">Contacts</div>
-      <div style={linkStyler} className="navLink">Donations</div>
+      <div style={linkStyler} className="navLink"><p>Registry</p></div>
+      
+      <div style={linkStyler} className="navLink"><p>Contacts</p></div>
+      
       </div>
 
-     
 
-
+      <div  className="navLinkr">
+      <a style={linkStyler} href="https://forms.gle/TaWYJFT1Y6AvQNKx8">  <p>RSVP</p></a>
+        </div>
+      </div>
+      
+{/*}
+     <div className="vl2">
+      <div class="vl3"></div>
+      </div>
+        */}
 
       </>
     );
