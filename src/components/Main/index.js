@@ -4,6 +4,7 @@ import "./styles.css"
 import CountdownTimer from "../CountdownTimer/CountdownTimer"
 import Nav from "../Nav/Nav"
 import proposal from "./proposal.jpg"
+import vintage from "./vint.JPG"
 
 
 
@@ -13,7 +14,7 @@ function Main() {
           
       <div className="mainSecOne">
 
-<img src={proposal}/>
+<img src={vintage}/>
 
 
           <div className="wedNames">
