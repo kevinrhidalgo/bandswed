@@ -1,24 +1,63 @@
 body{
-    background-color: beige;
-    
+  height: 100%;
+  overflow-y: hidden;
+}
+.mainSection{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+ 
+
 }
 .mainSecOne{
   display: flex;
-  justify-content:center ;   
+  justify-content:center ;  
+  position: absolute;
+width: 100%;
+height: 700px;
+margin-top: -30px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .mainSec{
   display: flex;
   justify-content: center;
-
 }
 .mainSec img{
   display: flex;
   justify-content: center;
-  width: 50%;
-  height: 90%;
+  width: 65%;
+  height: 60%;
   border: #d9c4ec solid 2px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transform: translate(-45%,20%) rotate(10deg);
+  transform: translate(-15%,20%) rotate(10deg);
+}
+
+.mainSec2 img{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 70%;
+  border: #d9c4ec solid 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: translate(35%,-15%) rotate(0deg);
+}
+.mainSec3 img{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 70%;
+  border: #d9c4ec solid 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: translate(25%,-260%) rotate(-5deg);
+}
+.mainSec4 img{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 80%;
+  border: #d9c4ec solid 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: translate(-20%,-160%) rotate(-7deg);
 }
 .enterBtn{
  
@@ -44,20 +83,22 @@ border:solid 2px white;
 }
 
 .wedNames{
-  color:navy;  
+  color:beige;  
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Cinzel', serif;
+  font-family: 'IBM Plex Serif', serif;
+  transform: translate(0%,330%);
+  position: absolute ;
+  
 }
 .wedNames h3{
-    word-spacing: 1px;
-    margin-bottom: 10px;
+    word-spacing: -3px;
+    font-size: 40px;
 }
 .wedNames h1{
  font-size: 15px;
- margin-top: 10px;
- 
+
 }
   .address{
       transform: translate(0px,-100px);
