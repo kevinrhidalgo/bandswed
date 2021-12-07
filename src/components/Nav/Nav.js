@@ -36,7 +36,7 @@ function Nav() {
 
 
       <div style={linkStyler} className="navLink">
-      <Link className="btn" to="/Aboutme"><h1>Wedding-Info</h1></Link>
+      <Link className="btn" to="/Wedinfo"><h1>Wedding-Info</h1></Link>
       </div>  
 
 <div className="naver">

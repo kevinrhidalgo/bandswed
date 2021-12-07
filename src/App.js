@@ -4,7 +4,7 @@ import Main from "./components/Main"
 import Footer from "./components/Footer/Footer"
 import Nav from "./components/Nav/Nav"
 import Aboutme from "./components/Aboutme/Aboutme"
-import Location from "./components/Location/Location"
+import WedInfo from "./components/Wedinfo/Wedinfo"
 import "./App.css"
 
 
@@ -21,7 +21,7 @@ function App() {
       <Nav/>
         <Route path='/' exact={true} component={Main}/>   
         <Route path="/Aboutme"  component={Aboutme} />
-        <Route path="/Location"  component={Location} />
+        <Route path="/Wedinfo"  component={WedInfo} />
       </BrowserRouter>
     
     

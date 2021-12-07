@@ -90,18 +90,28 @@ border:solid 2px white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'IBM Plex Serif', serif;
-  transform: translate(0%,330%);
+  font-family: 'Dancing Script', cursive;
+  transform: translate(0%,300%);
   position: absolute ;
+  text-shadow:
+  -1px -1px 0 beige,  
+   1px -1px 0 biege,
+   -1px 1px 0 beige,
+    1px 1px 0 beige;
   
 }
 .wedNames h3{
     word-spacing: -3px;
     font-size: 40px;
 }
+.wedNames h6{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+}
 .wedNames h1{
  font-size: 15px;
 
+ font-family: 'Libre Baskerville', serif;
 }
   .address{
       transform: translate(0px,-100px);

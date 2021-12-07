@@ -4,7 +4,7 @@ import "./styles.css"
 import CountdownTimer from "../CountdownTimer/CountdownTimer"
 import Nav from "../Nav/Nav"
 import proposal from "./proposal.jpg"
-import vintage from "./vint.JPG"
+import vintage from "./vint.jpg"
 
 
 
@@ -18,8 +18,9 @@ function Main() {
 
 
           <div className="wedNames">
+          <h6>We are getting married!</h6>
 <h3>Soley McWilliam & Bryan Hidalgo</h3>
-<h6>are getting married</h6>
+
 <h1>03.10.22</h1>
 </div>
 

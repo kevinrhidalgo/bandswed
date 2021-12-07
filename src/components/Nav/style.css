@@ -64,6 +64,7 @@ border-radius: 5%;
 transform: translate(20%,-0%);
 position: relative;
   z-index: 1;
+  
 }
 
 .navLinkr:hover{
@@ -95,30 +96,3 @@ color: beige;
 
 
 
-.vl1{
-  display:flex;
-  justify-content: center;
-} 
-.vl {
-  border-top: 2px solid tomato;
-  width: 610px;
-  font-weight: 1400px;
-  display: flex;
-  justify-content: center;
-  margin-top:20px;
-}
-
-
-.vl2{
-  display:flex;
-  justify-content: center;
-} 
-.vl3 {
-  border-top: 2px solid tomato;
-  width: 610px;
-  font-weight: 1400px;
-  display: flex;
-  justify-content: center;
-  margin-bottom:20px;
-  margin-top: -40px;
-}
