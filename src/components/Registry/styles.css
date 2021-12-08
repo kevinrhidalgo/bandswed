@@ -1,0 +1,63 @@
+
+.sectionRegistry{
+    background-image: url(https://images.pexels.com/photos/1172849/pexels-photo-1172849.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    height: 700px;
+    margin-top: -40px;
+    border: solid 1px rgb(255, 127, 105);
+}
+
+.target{
+    display: flex;
+    justify-content: center;
+}
+.targetOne img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.registryTitle{
+    display: flex;
+    justify-content: center;
+margin-bottom: 10px;
+}
+.registryTitle h1{
+    font-size: 65px;
+    font-family: 'Luxurious Script', cursive;
+}
+
+.registryDesc{
+display: flex;
+justify-content: center;
+}
+.descRegis{
+    width:500px;
+   font-size: 18px;
+   font-family: 'Prata', serif;
+}
+
+.registryBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button {
+    font-family: 'Prata', serif;
+    background-color: tomato;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  }
+
+ 

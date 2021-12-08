@@ -40,7 +40,9 @@ function Nav() {
       </div>  
 
 <div className="naver">
-      <div style={linkStyler} className="navLink"><p>Registry</p></div>
+      <div style={linkStyler} className="navLink">
+      <Link className="btn" to="/Registry"><h1>Registry</h1></Link>
+        </div>
       
       <div style={linkStyler} className="navLink">
       <Link className="btn" to="/Contacts"><h1>Contacts</h1></Link>
