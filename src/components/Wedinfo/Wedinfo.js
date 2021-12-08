@@ -47,7 +47,7 @@ function Location() {
 
 <div className="sectionDos">
 <h1>Schedule</h1>
-<p>Wedding Ceremony arrives at 4:30pm sharp. Please arrive on time!</p>
+<p>Wedding Ceremony begins at 5:00pm. Please begin arriving at 4:30pm</p>
 </div>
 </div>
 
@@ -62,7 +62,7 @@ function Location() {
 
 <div className="sectionCuatro">
 <h2>Dress Code</h2>
-<p>Formal Dressing. Suit and tie/bowtie for men.</p>
+<p>Formal Dress code. Suit and tie/bowtie for men.</p>
 </div>
 </div>
 

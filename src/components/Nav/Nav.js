@@ -42,7 +42,9 @@ function Nav() {
 <div className="naver">
       <div style={linkStyler} className="navLink"><p>Registry</p></div>
       
-      <div style={linkStyler} className="navLink"><p>Contacts</p></div>
+      <div style={linkStyler} className="navLink">
+      <Link className="btn" to="/Contacts"><h1>Contacts</h1></Link>
+        </div>
       
       </div>
 

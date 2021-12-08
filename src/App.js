@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer"
 import Nav from "./components/Nav/Nav"
 import Aboutme from "./components/Aboutme/Aboutme"
 import WedInfo from "./components/Wedinfo/Wedinfo"
+import Contacts from "./components/Contacts/Contacts"
 import "./App.css"
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/' exact={true} component={Main}/>   
         <Route path="/Aboutme"  component={Aboutme} />
         <Route path="/Wedinfo"  component={WedInfo} />
+        <Route path="/Contacts"  component={Contacts} />
       </BrowserRouter>
     
     
