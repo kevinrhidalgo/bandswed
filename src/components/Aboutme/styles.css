@@ -11,13 +11,13 @@
 }
 .boutDesc1{
     margin-left: 100px;
-    margin-right: -150px;
+    margin-right: -180px;
+    margin-top: -90px;
 }
 .aboutDesc{
-    width:260px;
+    width:320px;
     font-size: 13px;
-   
-    font-family: cursive;
+    font-family: 'EB Garamond', serif;
     transform: translate(0%,25%);
 }
 .coupleFoto img{
