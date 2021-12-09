@@ -60,3 +60,37 @@
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .flyerSec {
+        width: 350px;
+        height: 380px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .titleSac h1{  
+        font-size: 13px;
+        width: 300px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .contactSec h2{  
+        font-size: 17px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .contactSec{  
+        font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .contactSecTwo h2{  
+        font-size: 17px;  
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .contactSecTwo{  
+        font-size: 10px;  
+    }
+  }
