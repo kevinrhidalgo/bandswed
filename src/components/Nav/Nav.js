@@ -21,6 +21,7 @@ function Nav() {
       <div class="vl"></div>
       </div>
     */}
+    <div className="navigationSec">
 
 <div className="secNavi">
 
@@ -52,11 +53,17 @@ function Nav() {
 
       </div>
 
+
+<div className="rsvpBtn">
       <div  className="navLinkr">
       <a style={linkStyler} href="https://forms.gle/TaWYJFT1Y6AvQNKx8">  <p>RSVP</p></a>
         </div>
+</div>
 
-      </div>    
+      </div>   
+
+
+      </div> 
 {/*}
      <div className="vl2">
       <div class="vl3"></div>

@@ -40,9 +40,12 @@ function Location() {
 <p>Please let us know if you can make it. We can't 
   wait to see you!
 </p>
+<div className="rsvpBtn2">
 <div  className="navLinkr">
       <a style={linkStyler} href="https://forms.gle/TaWYJFT1Y6AvQNKx8">  <p>RSVP</p></a>
         </div>
+ </div>
+
         </div>
 
 <div className="sectionDos">

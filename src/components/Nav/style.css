@@ -81,8 +81,6 @@ color: beige;
   margin-top: 9px;
 }
 
-  
-
 
 .naver{
   display: flex;
@@ -92,7 +90,15 @@ color: beige;
 }
 
 
+@media only screen and (max-width: 600px) {
+  .rsvpBtn{  
+      transform: translate(-30%,0%);
+  }
+}
 
-
-
+@media only screen and (max-width: 600px) {
+  .rsvpBtn .navLinkr p{  
+      padding-top: 10px;
+  }
+}
 
