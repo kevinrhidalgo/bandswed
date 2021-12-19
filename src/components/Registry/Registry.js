@@ -27,7 +27,7 @@ function Registry() {
 
 <div className="registryDesc">
 <div className="descRegis">
-    <p>"The only gift we need is the opprotunity to celebrate with you on our 
+    <p>"The only gift we need is the opportunity to celebrate with you on our 
         special day. However, for your convenience, we've registered at target."
     </p>
 </div>
