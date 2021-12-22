@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css"
+import CountdownTimer from "../CountdownTimer/CountdownTimer"
 
 
 const linkStyler={
@@ -24,6 +25,11 @@ function Nav() {
     <div className="navigationSec">
 
 <div className="secNavi">
+
+<div className="cdTimer">
+      <CountdownTimer
+     countdownTimestampMs={1646883662000}/>
+      </div>
 
       <div className="navSection">
 

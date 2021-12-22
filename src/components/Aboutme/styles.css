@@ -9,17 +9,16 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: 700px;
     overflow-y: hidden;
+    width: 100%;
 }
 .boutDesc1{
-    margin-left: 100px;
-    margin-right: -180px;
-    margin-top: -90px;
+   
 }
 .aboutDesc{
     width:950px;
     font-size: 12px;
     font-family: 'Alegreya', serif;
-    transform: translate(0%,-20%);
+    transform: translate(5%,-30%);
 }
 .losFotos{
     display: flex;
@@ -28,20 +27,20 @@
 .coupleFoto img{
     width:300px;
     height: 300px;
-    transform: translate(30%,-5%);
+    transform: translate(15%,-5%);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .coupleFoto2 img{
     width:300px;
     height: 400px;
-    transform: translate(33%,0%);
+    transform: translate(20%,0%);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .coupleFoto3 img{
     width:350px;
     height: 350px;
-    transform: translate(30%,-5%);
+    transform: translate(20%,-5%);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .fotoBox{
@@ -60,7 +59,7 @@
     .aboutDesc p{  
        font-size: 9px;
        width: 400px;
-       transform: translate(-10%,150%);
+       transform: translate(0%,135%);
     }
   }
   @media only screen and (max-width: 600px) {
@@ -73,21 +72,21 @@
     .coupleFoto img{  
         width:200px;
         height: 250px;  
-       transform: translate(-20%,90%);
+       transform: translate(-20%,70%);
     }
   }
   @media only screen and (max-width: 600px) {
     .coupleFoto2 img{  
         width:250px;
         height: 280px;  
-        transform: translate(120%,-10%);
+        transform: translate(100%,-30%);
     }
   }
   @media only screen and (max-width: 600px) {
     .coupleFoto3 img{  
         width:250px;
         height: 280px;  
-        transform: translate(50%,-55%);
+        transform: translate(40%,-70%);
     }
   }
   @media only screen and (max-width: 600px) {

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./styles.css"
-import CountdownTimer from "../CountdownTimer/CountdownTimer"
 import Nav from "../Nav/Nav"
 import proposal from "./proposal.jpg"
 import vintage from "./vint.jpg"
@@ -25,19 +24,7 @@ function Main() {
 </div>
 
 
- 
 
-{/*}
-      <div className="cdTimer">
-      <CountdownTimer
-     countdownTimestampMs={1646883662000}/>
-      </div>
-    */}
-{/*}
-      <div className="enterBtn">
-<Link className="btn" to="/Aboutme"><h2> Enter </h2></Link>
-</div>
-*/}
       </div>
     );
   }

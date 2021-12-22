@@ -6,8 +6,7 @@ body{
   display: flex;
   justify-content: center;
   flex-direction: row;
- 
-
+  position:fixed;
 }
 .mainSecOne{
   display: flex;
@@ -80,11 +79,6 @@ border:solid 2px white;
   color:#1c2821; 
 }
 
-.cdTimer{
-  color:white;
-  transform: translate(0%,190%);
-}
-
 .wedNames{
   color:beige;  
   display: flex;
@@ -140,5 +134,10 @@ border:solid 2px white;
   @media only screen and (max-width: 600px) {
     .mainSecOne img{  
         width: 150%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .mainSection{  
+     position: fixed;
     }
   }

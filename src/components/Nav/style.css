@@ -89,16 +89,46 @@ color: beige;
   transform: translate(0%,-4%);
 }
 
+.rsvpBtn .navLinkr{
+  transform: translate(-10%,0%);
+  position: relative;
+  padding-top: 1px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
-  .rsvpBtn{  
-      transform: translate(-30%,0%);
+  .navSection .navLink{  
+     transform: translate(0%,0%);
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navLink h1{  
+     font-size: 8px;     
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navSection{  
+     transform: translate(18%,15%);   
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .rsvpBtn .navLinkr{  
+      transform: translate(-280%,20%);
+      position: relative;
+     width: 45px;
+     height: 30px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .rsvpBtn .navLinkr p{  
-      padding-top: 10px;
+      padding-top: 0px;
+      font-size: 10px;
   }
 }
 
