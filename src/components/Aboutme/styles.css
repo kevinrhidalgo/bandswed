@@ -1,6 +1,6 @@
 .theeAbout{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin-top: -40px;
     padding-top: 90px;
@@ -8,6 +8,7 @@
     border: solid 1px #ecd9ba;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: 700px;
+    overflow-y: hidden;
 }
 .boutDesc1{
     margin-left: 100px;
@@ -15,15 +16,32 @@
     margin-top: -90px;
 }
 .aboutDesc{
-    width:320px;
+    width:950px;
     font-size: 12px;
     font-family: 'Alegreya', serif;
-    transform: translate(0%,12%);
+    transform: translate(0%,-20%);
+}
+.losFotos{
+    display: flex;
+    flex-direction: row;
 }
 .coupleFoto img{
+    width:300px;
+    height: 300px;
+    transform: translate(30%,-5%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.coupleFoto2 img{
+    width:300px;
+    height: 400px;
+    transform: translate(33%,0%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.coupleFoto3 img{
     width:350px;
     height: 350px;
-    transform: translate(80%,10%);
+    transform: translate(30%,-5%);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .fotoBox{
@@ -36,28 +54,40 @@
     .theeAbout{  
         display: flex;
         flex-direction: column;
-        overflow-y: hidden;
-        width: 800px;
     }
   }
   @media only screen and (max-width: 600px) {
     .aboutDesc p{  
-       font-size: 10px;
-       margin-top: -10px;
+       font-size: 9px;
+       width: 400px;
+       transform: translate(-10%,150%);
     }
   }
   @media only screen and (max-width: 600px) {
-    .coupleFoto {  
+    .losFotos {  
         display: flex;
-        justify-content: center;
-        transform: translate(-45%,-10%);
+        flex-direction: column; 
     }
   }
   @media only screen and (max-width: 600px) {
     .coupleFoto img{  
-        width:300px;
+        width:200px;
         height: 250px;  
-        margin-top: 50px;
+       transform: translate(-20%,90%);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .coupleFoto2 img{  
+        width:250px;
+        height: 280px;  
+        transform: translate(120%,-10%);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .coupleFoto3 img{  
+        width:250px;
+        height: 280px;  
+        transform: translate(50%,-55%);
     }
   }
   @media only screen and (max-width: 600px) {

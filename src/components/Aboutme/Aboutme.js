@@ -1,8 +1,11 @@
 import React from "react"
 import { Link } from "react-router-dom";
 import "./styles.css"
-import brySol from "./brysol.jpg"
 import bryan from "./bryan.jpg"
+import sol1 from "./sol1.jpeg"
+import sol2 from "./sol2.jpeg"
+import sol3 from "./sol3.jpeg"
+import sol4 from "./sol4.jpeg"
 
 function About() {
     return (
@@ -28,12 +31,29 @@ function About() {
 </div>
 </div>
 
+<div className="losFotos">
 
 <div className='coupleFoto'>
 <img src={bryan}/>
 </div> 
-<div className="fotoBox"></div>
 
+
+
+
+
+
+<div className='coupleFoto2'>
+<img src={sol3}/>
+</div>
+
+<div className='coupleFoto3'>
+<img src={sol4}/>
+</div>
+
+</div>
+{/*
+<div className="fotoBox"></div>
+*/}
 
 
 </div>
